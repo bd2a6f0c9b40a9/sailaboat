@@ -36,32 +36,48 @@ body {
 
 .blue {
 	background-color: #00F;
+	background-image: url("http://concernedpestcontrolsydney.com.au/wp-content/uploads/2014/05/256huntsman.png");
+	background-size: contain;
 }
 
 .aqua { 
 	background-color: #3CF; 
+	background-image: url("https://d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/5/56/Worker_Bee_%28Primitive_Plus%29.png");
+	background-size: contain;
 }
 
 .green { 
 	background-color: #0F0; 
+	background-image: url("https://ianparberry.files.wordpress.com/2013/02/antwalk.gif");
+	background-size: contain;
 }
 
 .violette { 
 	background-color: #93F; 
+	background-image: url("https://vignette.wikia.nocookie.net/farmville2/images/f/f6/Peanut.png/revision/latest?cb=20130110031940");
+	background-size: contain;
 }
 
 .yellow { 
 	background-color: #FC3; 
+	background-image: url("https://d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/5/57/Cashew_%28Primitive_Plus%29.png");
+	background-size: contain;
 }
 
 .brown { 
 	background-color: #963; 
+	background-image: url("https://www.iconshock.com/v2/image/Brilliant/Food/almond");
+	background-size: contain;
 }
 
 .silver { 
 	background-color: #DFDFDF; 
+	background-image: url("http://icons.iconarchive.com/icons/fi3ur/fruitsalad/128/coconut-icon.png");
+	background-size: contain;
 }
 
 .pink { 
 	background-color: #F6C; 
+	background-image: url("https://flyingmeat.com/acorn/images/Acorn128.png");
+	background-size: contain;
 }
