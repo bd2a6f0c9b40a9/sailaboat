@@ -12,10 +12,10 @@ var board = new board_class();
 	board.objMapId = 'board';
 
 var resetBoard = [];
-var boardSize = 7;
+var boardSize = 10;
 var moveCount = '';
 var maxMoveCount = '';
-var boardDificulty = 0;
+var boardDificulty = 2;
 var gameOver = false;
 
 var boardHtml = $('#board');
