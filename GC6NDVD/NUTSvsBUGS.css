@@ -31,6 +31,7 @@ body {
 .red {
 	background-color: #F00; 
 	background-image: url("https://wiki.chakralinux.org/images/9/91/Tools-report-bug.png");
+	background-size: cover;
 }
 
 .blue {
