@@ -12,7 +12,7 @@ body {
 }
 
 .tile {
-	display: block; margin: 0px; padding: 0px; width: 25px; height: 25px; position: absolute; z-index: 1; border: 1px solid black;
+	display: block; margin: 0px; padding: 0px; width: 53px; height: 53px; position: absolute; z-index: 1; border: 1px solid black;
 }
 
 #board { border: 0px solid black; /*width: 285px; height: 285px;*/ }
