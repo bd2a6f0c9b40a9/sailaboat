@@ -5,8 +5,8 @@ window.onload = function() {
 /* default game variables */
 var colorsClass = ['red', 'blue', 'aqua', 'green', 'violette', 'yellow', 'brown', 'silver', 'pink'];	
 var boardColors = colorsClass.length;
-var tileWidth =  28;
-var tileHeight = 28;
+var tileWidth =  56;
+var tileHeight = 56;
 
 var board = new board_class();
 	board.objMapId = 'board';
