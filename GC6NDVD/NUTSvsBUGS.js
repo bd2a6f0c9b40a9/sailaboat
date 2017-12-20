@@ -204,11 +204,11 @@ function flood (color) {
         gameOver = true;
 		showGameControls();
 
-		if ( confirm ("You win. Play a new game?") ) {
+		if (confirm ("You win! Now, go get it! N48 45.568 W122 29.385")) {
 			initGame();
         }
     } else if (moveCount == maxMoveCount) {
-		if ( confirm("You lost. Repeat board?") ) {
+		if (confirm("You lost... Try again!")) {
 			resetToInitialBoard();
 			initGame();
 		}
