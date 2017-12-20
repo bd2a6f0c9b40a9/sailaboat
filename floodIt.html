@@ -1,81 +1,47 @@
-<!DOCTYPE HTML>
+<body>
+  <table border="0" cellpadding="4" cellspacing="0" align="center">
+    <tr>
+      <td colspan="2">
+        <div class="title">Flood It</div>
+      </td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">
+        <div id="board"></div>
+      </td>
+      <td valign="top">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center">
+              <h4 style="margin: 10px 0px 5px 0px; padding: 0px; font-weight: normal; text-decoration: underline;">Information</h4> Moves: <span id="movesInfo">0 / 21</span>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <h4 style="margin: 10px 0px 0px 0px; padding: 0px; font-weight: normal; text-decoration: underline;">Controller</h4>
+              <div id="controlPad"></div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <div display="none"> </div>
+              <table border="0" cellpadding="0" cellspacing="8" width="100%">
+                <tr>
+                  <td align="center" colspan="2">
+                    <input type="button" value="New Game" onclick="initGame()">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-<html>
-<head>
-	<title>Puzzle</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	
-	<link href="floodIt.css" type="text/css" rel="stylesheet">
-</head>
-<body>	
-	<table border="0" cellpadding="4" cellspacing="0" align="center">
-		<tr>
-			<td colspan="2">
-				<div class="title">Flood It</div>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top">
-				<div id="board"></div>
-			</td>
-			<td valign="top">
-			<table border="0" cellpadding="0" cellspacing="0">
-				<tr>
-					<td align="center">
-						<h4 style="margin: 10px 0px 5px 0px; padding: 0px; font-weight: normal; text-decoration: underline;">Information</h4>
-						Moves: <span id="movesInfo"></span>
-					</td>
-				</tr>
-				<tr>
-					<td align="center">
-						<h4 style="margin: 10px 0px 0px 0px; padding: 0px; font-weight: normal; text-decoration: underline;">Controller</h4>
-						<div id="controlPad"></div>
-					</td>
-				</tr>
-				<tr>
-					<td align="center">
-						<table border="0" cellpadding="0" cellspacing="8" width="100%">
-							<div style="visibility: hidden;">
-								<tr>
-									<td>Board size:</td>
-									<td>
-				<SELECT ID="boardSize">
-					<OPTION VALUE="7">Small</OPTION>
-					<OPTION VALUE="10" SELECTED>Medium</OPTION>
-					<OPTION VALUE="14">Large</OPTION>
-				</SELECT>
-			</TD></TR><TR><TD>
-				Colors:
-			</TD><TD>
-				<SELECT ID="boardColors">
-					<OPTION VALUE="3">3</OPTION>
-					<OPTION VALUE="6" SELECTED>6</OPTION>
-					<OPTION VALUE="9">9</OPTION>
-				</SELECT>
-			</TD></TR><TR><TD>
-				Dificulty:
-			</TD><TD>
-				<SELECT ID="boardDificulty">
-					<OPTION VALUE="0">Easy</OPTION>
-					<OPTION VALUE="2" SELECTED>Medium</OPTION>
-					<OPTION VALUE="4">Hard</OPTION>
-				</SELECT>
-			</TD></TR>
-			</div>
-			
-			<TR><TD ALIGN="center" COLSPAN="2">
-				<INPUT TYPE="button" VALUE="New Game" onClick="initGame()">
-			</TD></TR>
-			</TABLE>
-		</TD></TR>
-		</TABLE>
-	</TD></TR>
-	</TABLE>
-</BODY>
-</HTML>
 
-<SCRIPT TYPE="text/javascript" SRC="jquery.min.js"></SCRIPT>
-<SCRIPT TYPE="text/javascript" SRC="gameAPI.js"></SCRIPT>
-<SCRIPT TYPE="text/javascript" SRC="floodIt.js"></SCRIPT>
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="gameAPI.js"></script>
+  <script type="text/javascript" src="floodIt.js"></script>
+</body>
