@@ -204,7 +204,7 @@ function flood (color) {
         gameOver = true;
 		showGameControls();
 
-		if (confirm ("You win! Now, go get it! N48 45.568 W122 29.385")) {
+		if (confirm ("You win! Now, go get it! The cache can be found at:\n"+coords[indexes[boardSize + (tileWidth/tileHeight)]])) {
 			initGame();
         }
     } else if (moveCount == maxMoveCount) {
