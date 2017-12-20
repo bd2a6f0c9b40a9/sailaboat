@@ -24,7 +24,7 @@ var boardContentPadding = 4;
 
 function getGameSettings() {
 	boardSize = 10 //parseInt($('#boardSize option:selected').val());
-	boardColors = 6 //parseInt($('#boardColors option:selected').val());
+	boardColors = 9 //parseInt($('#boardColors option:selected').val());
 	boardDificulty = 2 //parseInt($('#boardDificulty option:selected').val());
 
 	boardHtml.css('width', (boardSize * tileWidth + boardContentPadding));
